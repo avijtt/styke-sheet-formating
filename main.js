@@ -3,7 +3,7 @@ const formatter=Intl.NumberFormat('en',{
     style:'currency',
     currency:'EUR'
 })
-let n=formatter.format(505_123);
+let n=formatter.format(505_123_200);
 console.log(n);
 
 const number = 123456.789;
